@@ -5,7 +5,6 @@ body {
 
 a {
 	display: inline-block;
-	height: 50px;
 }
 
 header, .quote {
@@ -127,10 +126,18 @@ no-repeat;
 	text-transform: uppercase;
 }	
 
-.quote h1 
+.quote a{ 
+	color:white ;
+	font-family: 'Montserrat',sans-serif;
+	border: 5px solid white;
+	padding: 10px 40px;
+	text-decoration:none;
+ }
 
-}
-}
+ .quote a:hover {
+ 	background: white;
+ 	color:black;
+ }
 
 .featured {
 	text-align: center;	
